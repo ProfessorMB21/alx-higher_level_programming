@@ -5,9 +5,10 @@ def new_in_list(my_list, idx, element):
     at a specified index
     """
 
-    new = my_list
-    if idx < 0 or idx > len(my_list):
-        return new
+    if idx < 0 or idx > (len(my_list) - 1):
+        return my_list
+
+    new = list(my_list)
     new[idx] = element
     return new
 
