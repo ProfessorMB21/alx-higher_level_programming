@@ -5,8 +5,10 @@ def new_in_list(my_list, idx, element):
     at a specified index
     """
 
+    if my_list is None:
+        return None
     if idx < 0 or idx > (len(my_list) - 1):
-        return my_list
+        return list(my_list)
 
     new = list(my_list)
     new[idx] = element

@@ -3,8 +3,8 @@
 def divisible_by_2(my_list=[]):
     """Finds all the multiples of 2 in a list"""
 
-    if len(my_list) == 0:
-        return
+    if len(my_list) == 0 or my_list is None:
+        return None
 
     result = []
     for i in range(len(my_list)):
