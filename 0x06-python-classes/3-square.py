@@ -3,6 +3,7 @@
 A Square class definition
 """
 
+
 class Square:
     """
     A Square class with a private attribute and public instance method
@@ -27,6 +28,6 @@ class Square:
         Returns the area of the square
         """
 
-        return (self__size * self__size)
+        return (self.__size * self.__size)
 
 

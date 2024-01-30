@@ -3,6 +3,7 @@
 A Square class definition
 """
 
+
 class Square:
     """
     A Square class with 2 public instance methods
@@ -50,9 +51,10 @@ class Square:
         Prints in stdout the square
         """
 
-        if size == 0:
+        if self.__size == 0:
             print("")
         else:
-            for i in range(size):
-                print("#" * size)
+            for i in range(self.__size):
+                print("#" * self.__size)
+
 

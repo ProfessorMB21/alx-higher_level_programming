@@ -3,6 +3,7 @@
 A Square class definition
 """
 
+
 class Square:
     """
     Empty Square Class with private atttribute
