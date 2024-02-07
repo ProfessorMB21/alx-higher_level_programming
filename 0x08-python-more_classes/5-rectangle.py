@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Definition of a Rectangle class based on 4-rectangle.py
+Definition of a Rectangle class
 """
 
 
