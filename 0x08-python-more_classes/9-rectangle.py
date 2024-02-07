@@ -3,6 +3,7 @@
 Definition of a Rectangle class
 """
 
+
 class Rectangle:
     """
     A Rectangle class
