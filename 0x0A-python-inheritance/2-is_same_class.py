@@ -9,8 +9,8 @@ def is_same_class(obj, a_class):
     Otherwise False
 
     Args:
-        obj: Instance of a class
-        a_class: class type
+        obj (any): Instance of a class
+        a_class (type): class type
     Returns:
         True if type of obj is a_class
         False, otherwise
