@@ -7,7 +7,7 @@ class Student:
     A simple Student class to represent a Student
     """
 
-    def __int__(self, first_name, last_name, age):
+    def __init__(self, first_name, last_name, age):
         """
         Instatiation with first_name, last_name and age
 
