@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 """
 A script that adds all supplied arguments to a Python list
 and then save it as a JSON representation to a file
