@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-Definition of the class Student
-"""
+"""Definition of the class Student"""
 
 
 class Student:
